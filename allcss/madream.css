@@ -1,0 +1,515 @@
+@import url('https://fonts.googleapis.com/css2?family=Laila:wght@300;400;500;600&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+li, a, button{
+font-family: "Laila","Serif";
+font-weight: 300;
+font-size: 20px;
+color: white;
+text-decoration: none;
+}
+header{
+    width: 100%;
+   display:flex;
+   justify-content: flex-end;
+   align-items: center;
+   padding: 30px 10%;
+   background-color:#393C8C;
+   height: 85px;
+}
+.logo{
+    margin-right: auto;
+    width: 135px;
+    padding-bottom: 5px;
+    padding-left: -140px;
+
+}
+.nav-links{
+    list-style: none;
+    margin-left: 50px;
+    margin-bottom:15px;
+
+}
+header .open img{
+    width: 30px;
+    margin-top: 20px;
+    margin-right: 10px;
+    display: none;
+}
+.nav-links li{
+    display: inline-block;
+    padding-top:0 ;
+    padding-left:20px ;
+    padding-right:20px ;
+}
+.nav-links li a{ 
+    transition: all 0.3s ease 0s;
+}
+.nav-links li a:hover{
+    color:#C98D26;
+}
+button{
+    padding: 8px 20px;
+    background-color: transparent;
+    border: 1px solid;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin-top: 10px;
+    margin-right: -60px;
+    margin-left: 5px;
+}
+button:hover{
+    background-color:#C98D26;
+    border: none;
+}
+main{
+    width: 100%;
+    background-color: #393C8C;
+    display: flex;
+    justify-content: flex-end;
+    height:640px;
+}
+.home-info{
+    margin-right: 580px;
+    margin-top: 160px;
+    margin-left: 120px;
+}
+.home-info h1{
+    font-family: "Laila","Serif";
+    font-size: 60px;
+    font-weight: 500;
+    color:white;
+}
+.home-info h4{
+    font-family: "Laila","Serif";
+    font-size: 20px;
+    font-weight: 500;
+    color: #C98D26;
+}
+.home-image img{
+    width:449px;
+    margin-top: -34px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 0px;
+}
+.row .col-1 hr{
+    width:150px;
+    height: 5px;
+    margin-top: 60px;
+    margin-left: 60px;
+    background-color:#393C8C;
+    border: none;
+    border-radius: 3px;
+}
+.col-1{
+    position: relative;
+    margin-left: 70px;
+}
+.col-1 img{
+    margin-top: 35px;
+    margin-left: 110px;
+    width: 600px;
+
+}
+.col-1 h3{
+    margin-left: 60px;
+    margin-top: 10px;
+    font-family: "Laila","Serif";
+    color:#C98D26;
+    font-size: 24px;
+}
+.col-2{
+    position: relative;
+    margin-top: 155px;
+    margin-right: 250px;
+}
+.col-2 .first .heading{
+    display: inline-flex;
+}
+.col-2 .first .heading img{
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.col-2 .first .heading h3{
+    margin-top: 26px;
+    font-family: "Laila","Serif";
+    font-size: 24px;
+    color: #393C8C;
+}
+.col-2 .first h5{
+    margin-top: 5px;
+    font-family: "Laila","Serif";
+    color:#C98D26;
+    margin-left: 60px;
+    font-size: 18px;
+    width: 350px;
+
+}
+.col-2 .second .heading2{
+    display: inline-flex;
+}
+.col-2 .second .heading2 img{
+    margin-right: 10px;
+    margin-top: 20px;
+}
+.col-2 .second .heading2 h3{
+    margin-top: 26px;
+    font-family: "Laila","Serif";
+    font-size: 24px;
+    color: #393C8C;
+}
+.col-2 .second h5{
+    margin-top: 5px;
+    font-family: "Laila","Serif";
+    color:#C98D26;
+    margin-left: 60px;
+    font-size: 18px;
+    width: 350px;
+}
+.col-2 .third .heading3{
+    display: inline-flex;
+}
+.col-2 .third .heading3 img{
+    margin-right: 2px;
+    margin-top: 7px;
+}
+.col-2 .third .heading3 h3{
+    margin-top: 26px;
+    font-family: "Laila","Serif";
+    font-size: 24px;
+    color: #393C8C;
+}
+.col-2 .third h5{
+    margin-top: 5px;
+    font-family: "Laila","Serif";
+    color: #C98D26;
+    margin-left: 60px;
+    font-size: 18px;
+    width: 350px;
+
+}
+.category{
+    margin-top: 220px;
+}
+.category  hr{
+    width:150px;
+    height: 5px;
+    margin-top: 60px;
+    margin-left: 120px;
+    background-color:#C98D26;
+    border: none;
+    border-radius: 3px;
+}
+.category h3{
+    margin-left: 120px;
+    margin-top: 20px;
+    font-family: "Laila","Serif";
+    color: #393C8C;
+    font-size: 24px;
+}
+.category .options{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 110px;
+    margin-left: 220px;
+    margin-right: 220px;
+}
+.category .options .option1{
+    padding-left: 22px;
+    padding-bottom: 22px;
+    width:340px;
+    box-shadow: 3px 8px 2px rgb(175, 175, 175);
+    border-radius: 12px;
+    height: 240px;
+
+}
+.category .options .option1 h5{
+    margin-top: 5px;
+    margin-left: 65px;
+    color:#393C8C;
+    font-family: "laila","Serif";
+    font-size: 18px;
+}
+.category .options .option1 p{
+    margin-top: 10px;
+    font-family: "Laila","Serif";
+    font-size: 16px;
+    color: #393C8C;
+    font-weight: 500;
+}
+.category .options .option1 button{
+    font-size: 18px;
+    margin-left: 180px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    padding:8px 8px;
+    background-color: #C98D26;
+    color: white;
+    width: 90px;
+    border: none;
+    box-shadow: 2px 2px 1px rgb(175, 175, 175) ;
+}
+.category .options .option2{
+    padding-left: 22px;
+    padding-right: 22px;
+    width:340px;
+    box-shadow: 3px 8px 2px rgb(175, 175, 175);
+    border-radius: 12px;
+    height: 240px;
+}
+.category .options .option2 h5{
+    margin-top: 5px;
+    margin-left: 65px;
+    color:#393C8C;
+    font-family: "laila","Serif";
+    font-size: 18px;
+}
+.category .options .option2 p{
+    margin-top: 10px;
+    font-family: "Laila","Serif";
+    font-size: 16px;
+    color: #393C8C;
+    font-weight: 500;
+}
+.category .options .option2 button{
+    font-size: 18px;
+    margin-left: 180px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    padding:8px 8px;
+    background-color: #C98D26;
+    color: white;                          
+    width: 90px;
+    border: none;
+    box-shadow: 2px 2px 1px rgb(175, 175, 175) ;
+}
+.category .options .option3{
+    padding-left: 22px;
+    padding-right: 22px;
+    width:340px;
+    box-shadow: 3px 8px 2px rgb(175, 175, 175);
+    border-radius: 12px;
+    height: 240px;
+}
+.category .options .option3 h5{
+    margin-top: 5px;
+    margin-left: 65px;
+    color:#393C8C;
+    font-family: "laila","Serif";
+    font-size: 18px;
+}
+.category .options .option3 p{
+    margin-top: 10px;
+    font-family: "Laila","Serif";
+    font-size: 16px;
+    color: #393C8C;
+    font-weight:500;
+    
+}
+.category .options .option3 button{
+    font-size: 18px;
+    margin-left: 180px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    padding:8px 8px;
+    background-color: #C98D26;
+    color: white;
+    width: 90px;
+    border: none;
+    box-shadow: 2px 2px 1px rgb(175, 175, 175) ;
+}
+.ads{
+    margin-top: 280px;
+}
+.ads  hr{
+    width:150px;
+    height: 5px;
+    margin-top: 60px;
+    margin-left: 120px;
+    background-color:#393C8C;
+    border: none;
+    border-radius: 3px;
+}
+.ads h3{
+    margin-left: 120px;
+    margin-top: 20px;
+    font-family: "Laila","Serif";
+    color:#C98D26;
+    font-size: 24px;
+}
+.ads .ads-box{
+    width:1450px;
+    height:450px;
+    box-shadow: 3px 8px 2px rgb(175, 175, 175);
+    border-radius: 12px;
+    margin-left: 120px;
+    margin-right: 80px;
+    margin-top: 50px;
+
+}
+.contact{
+    margin-top: 220px;
+    display: flex;
+    justify-content: space-between;
+}
+.column-1{
+    margin-left:20px;
+}
+.contact .column-1 .form{
+    display: flex;
+    flex-direction: column;
+    gap:32px;
+    margin-left: 250px;
+
+}
+.contact .column-1 hr{
+    width:150px;
+    height: 5px;
+    margin-top: 60px;
+    margin-left: 120px;
+    background-color:#C98D26;
+    border: none;
+    border-radius: 3px;
+
+}
+.contact .column-1 h3{
+    margin-left: 250px;
+    margin-top: 20px;
+    font-family: "Laila","Serif";
+    color: #393C8C;
+    font-size: 24px;
+}
+.contact .column-1 h5{
+    margin-left: 250px;
+    margin-top: 4px;
+    font-family: "laila","Serif";
+    color:#C98D26;
+    font-size: 16px;
+}
+.Cinputs{
+    width:400px;
+    height:50px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: #393C8C;
+    border-width: 4px;
+    border-radius: 3px;
+    outline: none;
+    padding-left: 25px;
+}
+.form textarea{
+    height:110px;
+    padding-top:75px;
+}
+.Cinputs:focus{
+    border-bottom: 2px solid #C98D26;
+}
+.Cinputs::placeholder{
+    font-family:"Laila","Serif" ;
+    color:#393C8C;
+}
+.form button{
+    margin-left: 50px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    padding:8px 8px;
+    background-color: #C98D26;
+    color: white;
+    width: 300px;
+    border: none;
+}
+.column-2 img{
+    width:700px;
+    margin-right: 200px;
+    margin-top: 100px;
+    align-items: center;
+}
+footer{
+    width:100%;
+    background-color: #C98D26;
+    margin-bottom: 0;
+    padding: 1px 0 1px;
+}
+.row2{
+    width:100%;
+    margin: auto;
+    align-items: center;
+    justify-content:space-between;
+    height:200px;
+}
+.row2 .colu-1{
+    margin-top: 10px;
+    justify-content:center;
+    align-items: center;
+    display: inline-flex;
+}
+.row2 .colu-1 img{
+    margin-left: 100px;
+    margin-top: 5px;
+
+}
+.row2 .colu-1 .nav-links2{
+    list-style: none;
+    margin-left: 700px;
+    margin-top: 20px;
+
+}
+.nav-links2 li{
+    display: inline-block;
+    padding-left:20px ;
+    padding-right:20px ;
+    margin-left: 30px;
+}
+.nav-links2 li a{ 
+    transition: all 0.3s ease 0s;
+}
+.nav-links2 li a:hover{
+    color:#393C8C
+}
+.row2 .colu-2{
+    margin-top: 30px;
+    justify-content:center;
+    align-items: center;
+    display:inline-flex;
+}
+.row2 .colu-2 h4{
+    color: white;
+    font-family: "laila","serif";
+    font-weight: 200;
+    margin-left: 120px;
+}
+.row2 .colu-2 .img2{
+    margin-left: 15px;
+}
+.row2 .colu-2 .img1{
+    margin-left: 1190px;
+    margin-top: 1px;
+}
+.row2 .colu-2 .img1:hover{
+    color:#393C8C;
+}
+.row2 .colu-2 .img2:hover{
+    color: #393C8C;
+}
+.row2 hr{
+    width:max-width;
+    height: 1px;
+    margin-top: 40px;
+    background-color:#e0e0e0;
+    border: none;
+    border-radius: 3px;
+}
+@media only screen and (max-width:700px){
+
+ 
+}

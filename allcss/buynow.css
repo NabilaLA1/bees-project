@@ -1,0 +1,76 @@
+@-ms-viewportimport url('https://fonts.googleapis.com/css2?family=Laila:wght@300;400;500;600&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body a{
+    margin-left: 40px;
+    background-color:white;
+    padding: 8px;
+    padding-top: 12px;
+    margin-top:0;
+    border-radius: 15px;
+    outline: none;
+    
+}
+a i{
+    padding-top: 7px;
+    padding-bottom: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+    font-size:25px;
+    margin-top: 24px;
+    align-self: center;
+    color:#393C8C;
+}
+body{
+    background-color: #393C8C;
+}
+body h1{
+    color: #C98D26;
+    text-align: center;
+}
+.purchase-form {
+    background-color: white;
+    width:600px;
+    margin: 0 auto;
+    height:500px;
+    padding-top: 50px;
+    border-radius: 15px;
+}
+
+.purchase-input {
+    width: 50%;
+    margin-bottom: 15px;
+    margin-left:50px;
+    margin-right:50px;
+    padding: 10px;
+    border-top:none;
+    border-left: none;
+    border-right: none;
+    border-bottom: #393C8C;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.purchase-input:focus {
+    border-color: #C98D26;
+}
+
+.purchase-button {
+    width: 400px;
+    background-color: #C98D26;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    margin-left: 100px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.purchase-button:hover {
+    background-color: #AB7021;
+}
