@@ -8,7 +8,7 @@
     <script src="https://kit.fontawesome.com/d09b6df77f.js" crossorigin="anonymous"></script>
 </head>
 <body>
-            <a href="pages/p3.html"><i class="fa-solid fa-arrow-left"></i></a>
+            <a href="p3.php"><i class="fa-solid fa-arrow-left"></i></a>
     
     <h1>House Purchase Page</h1>
     <div class="account-info">

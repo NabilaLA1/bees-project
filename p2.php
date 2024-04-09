@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Property Listing - Property Name</title>
-    <link rel="stylesheet" href="../allcss/p2.css">
+    <link rel="stylesheet" href="./assets/css/p2.css">
     <script src="https://kit.fontawesome.com/d09b6df77f.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -12,7 +12,7 @@
     <header>
         <!-- Navigation menu -->
         <nav>
-            <a href="pages/shortstay.html"><i class="fa-solid fa-arrow-left"></i></a>
+            <a href="shortstay.php"><i class="fa-solid fa-arrow-left"></i></a>
         </nav>
     </header>
 
@@ -20,13 +20,13 @@
     <div class="slideshow-container">
         <!-- Slides -->
         <div class="mySlides fade">
-            <img src="../images/home2.jpg" style="width:100%">
+            <img src="./images/home2.jpg" style="width:100%">
         </div>
         <div class="mySlides fade">
-            <img src="../images/parlor1.jpg" style="width:100%">
+            <img src="./images/parlor1.jpg" style="width:100%">
         </div>
         <div class="mySlides fade">
-            <img src="../images/kitchen.avif" style="width:100%">
+            <img src="./images/kitchen.avif" style="width:100%">
         </div>
 
         <!-- Next and previous buttons -->
@@ -46,8 +46,8 @@
         <div class="contact-us">
             <h2>Interested?</h2>
         
-            <a class="button" href="pages/inspection.html"><button>Book inspection</button></a>
-            <a class="button" href="pages/reservenow2.html"><button>Reserve now</button></a>
+            <a class="button" href="inspection.php"><button>Book inspection</button></a>
+            <a class="button" href="reservenow2.php"><button>Reserve now</button></a>
         </div>
         
     </div>

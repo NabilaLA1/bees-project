@@ -12,7 +12,7 @@
     <header>
         <!-- Navigation menu -->
         <nav>
-            <a href="pages/buyhouse.html"><i class="fa-solid fa-arrow-left"></i></a>
+            <a href="buyhouse.php"><i class="fa-solid fa-arrow-left"></i></a>
         </nav>
     </header>
 
@@ -46,8 +46,8 @@
         <div class="contact-us">
             <h2>Interested?</h2>
         
-            <a class="button" href="pages/inspection.html"><button>Book inspection</button></a>
-            <a class="button" href="pages/buynow.html"><button>Buy now</button></a>
+            <a class="button" href="inspection.php"><button>Book inspection</button></a>
+            <a class="button" href="buynow.php"><button>Buy now</button></a>
         </div>
         
     </div>
