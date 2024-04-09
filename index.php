@@ -67,21 +67,21 @@
             <h5>Short-term stay</h5>
             <p> Have plans in a different state?explore our variety
              of apartments available with stay options of as low as a day. </p>
-             <a class="butn" href="pages/shortstay.html"><button>Explore</button></a>
+             <a class="butn" href="shortstay.php"><button>Explore</button></a>
         </div>
         <div class="option2" >
             <img src="./icons/roof.svg" alt="">
             <h5>Long-term stay</h5>
             <p> Need somewhere to make your home? Explore our rent options 
                 for a year or more. </p>
-             <a class="butn" href="pages/longstay.html"><button>Explore</button></a>
+             <a class="butn" href="longstay.php"><button>Explore</button></a>
         </div>
         <div class="option3" >
             <img src="./icons/roof.svg" alt="">
             <h5>Buy a house</h5>
             <p> Ready to commit? want to have your dream home? explore houses 
                 at a very affordable rate. </p>
-             <a class="butn" href="pages/buyhouse.html"><button>Explore</button></a>
+             <a class="butn" href="buyhouse.php"><button>Explore</button></a>
         </div>
         </div>
     </div>
