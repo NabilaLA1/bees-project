@@ -28,7 +28,7 @@
                 <a class="button" href="pages/madream.html"><button>Log in</button></a>
             </form>
             <div class="no-acct">
-                <h5>Dont have an account?</h5><a class="button" href="pages/signup.html"><button>Sign up</button></a>
+                <h5>Dont have an account?</h5><a class="button" href="signup.php"><button>Sign up</button></a>
             </div>
             
         </div>

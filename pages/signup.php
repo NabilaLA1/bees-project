@@ -1,15 +1,11 @@
-<?php
-require_once 'includes/config_session.inc.php';
-require_once 'includes/signup_view.inc.php';
 
-?>
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel='stylesheet' type='text/css' media='screen' href='../allcss/signup.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../assets/css/signup.css'>
     <title>log in</title>
 </head>
 <body>
@@ -40,12 +36,9 @@ require_once 'includes/signup_view.inc.php';
                 <a class="button" href="#"><button>Sign up</button></a>
             </form>
             <div class="no-acct">
-                <h5>Already have an account?</h5><a class="button" href="pages/login.html"><button>Log in</button></a>
+                <h5>Already have an account?</h5><a class="button" href="login.php"><button>Log in</button></a>
             </div>
-            <?php 
-            check_signup_errors();
-            
-            ?>
+           
             
         </div>
     </div>
