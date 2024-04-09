@@ -23,7 +23,7 @@
             <img src="./icons/bars-solid.svg" class="menu-icon" onclick="togglemenu()">
         </div>
         <!--log in button--> 
-        <a class="btn" href="pages/login.php"><button>Log in</button></a>
+        <a class="btn" href="login.php"><button>Log in</button></a>
     </header>
     <!--home section-->
     <main class="home">
