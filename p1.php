@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Property Listing - Property Name</title>
-    <link rel="stylesheet" href="../allcss/p3.css">
+    <link rel="stylesheet" href="../allcss/p1.css">
     <script src="https://kit.fontawesome.com/d09b6df77f.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -12,7 +12,7 @@
     <header>
         <!-- Navigation menu -->
         <nav>
-            <a href="html/buyhouse.html"><i class="fa-solid fa-arrow-left"></i></a>
+            <a href="pages/shortstay.html"><i class="fa-solid fa-arrow-left"></i></a>
         </nav>
     </header>
 
@@ -45,9 +45,10 @@
 
         <div class="contact-us">
             <h2>Interested?</h2>
-        
-            <a class="button" href="html/inspection.html"><button>Book inspection</button></a>
-            <a class="button" href="html/buynow.html"><button>Buy now</button></a>
+            <!--
+            <a class="button" href=""><button>Book inspection</button></a>
+            -->
+            <a class="button" href="pages/reservenow.html"><button>Reserve now</button></a>
         </div>
         
     </div>

@@ -1,5 +1,6 @@
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel='stylesheet' type='text/css' media='screen' href='../allcss/madream.css'>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' type='text/css' media='screen' href='./assets/css/madream.css'>
     <title>madream</title>
 </head><!DOCTYPE html>
 <html lang="en">
@@ -7,24 +8,9 @@
     <meta charset="UTF-8">
   
 <body>
-    <header>
-        <!--logo-->
-        <img class="logo" src="../icons/logo.svg" alt="logo">
-        <nav>
-        <!--menu-->
-            <ul class="nav-links" id="menuList">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#category">Category</a></li>
-                <li><a href="#Contact-us">Contact Us</a></li>
-            </ul>
-        </nav>
-        <div class="open">
-            <img src="../icons/bars-solid.svg" class="menu-icon" onclick="togglemenu()">
-        </div>
-        <!--log in button--> 
-        <a class="btn" href="html/login.html"><button>Log in</button></a>
-    </header>
+     <!--Header-->
+    <?php include('./pages/header.php')?>
+
     <!--home section-->
     <main class="home">
         <div class="home-info">
@@ -32,7 +18,7 @@
             <h4>Short/long term stay made easy</h4>
         </div>
         <div class="home-image">
-            <img src="../images/home.png" alt="">
+            <img src="./images/home.png" alt="">
         </div>
     </main>
     <!--aboutus-->
@@ -40,13 +26,13 @@
      <div class="col-1">
             <hr>
             <h3> We ease your house and apartment hunting journey</h3>
-            <img src="../icons/collage.svg" alt="">
+            <img src="./icons/collage.svg" alt="">
      </div>
        <div class="col-2">
           <!--about headings-->
             <div class="first">
                 <div class="heading">
-                    <img src="../icons/moneybagicon.svg" alt="">
+                    <img src="./icons/moneybagicon.svg" alt="">
                     <h3>Budget friendly</h3>
                 </div>
                 <h5>Our mission is to help people find their dream homes without breaking the bank.
@@ -54,7 +40,7 @@
             </div>
             <div class="second">
                 <div class="heading2">
-                    <img src="../icons/secureicon.svg" alt="">
+                    <img src="./icons/secureicon.svg" alt="">
                     <h3>Secure transactions</h3>
                 </div>
                 <h5>Ensuring your peace of mind is our top priority.With secure protocols,
@@ -63,7 +49,7 @@
             </div>
             <div class="third">
                 <div class="heading3">
-                    <img src="../icons/easeicon.svg" alt="">
+                    <img src="./icons/easeicon.svg" alt="">
                     <h3>Ease of use</h3>
                 </div>
                 <h5>Navigating through property listings, making transactions, and
@@ -77,25 +63,25 @@
             <h3>Explore our options</h3>
         <div class="options">
         <div class="option1" >
-            <img src="../icons/roof.svg" alt="">
+            <img src="./icons/roof.svg" alt="">
             <h5>Short-term stay</h5>
             <p> Have plans in a different state?explore our variety
              of apartments available with stay options of as low as a day. </p>
-             <a class="butn" href="html/shortstay.html"><button>Explore</button></a>
+             <a class="butn" href="pages/shortstay.html"><button>Explore</button></a>
         </div>
         <div class="option2" >
-            <img src="../icons/roof.svg" alt="">
+            <img src="./icons/roof.svg" alt="">
             <h5>Long-term stay</h5>
             <p> Need somewhere to make your home? Explore our rent options 
                 for a year or more. </p>
-             <a class="butn" href="html/longstay.html"><button>Explore</button></a>
+             <a class="butn" href="pages/longstay.html"><button>Explore</button></a>
         </div>
         <div class="option3" >
-            <img src="../icons/roof.svg" alt="">
+            <img src="./icons/roof.svg" alt="">
             <h5>Buy a house</h5>
             <p> Ready to commit? want to have your dream home? explore houses 
                 at a very affordable rate. </p>
-             <a class="butn" href="html/buyhouse.html"><button>Explore</button></a>
+             <a class="butn" href="pages/buyhouse.html"><button>Explore</button></a>
         </div>
         </div>
     </div>
@@ -124,31 +110,15 @@
         </div>
         </div>
         <div class="column-2">
-            <img src="../images/phone.png" alt="">
+            <img src="./images/phone.png" alt="">
         </div>
     </div>
-    <footer>
-        <div class=row2>
-            <div class="colu-1">
-                
-                <img src="../icons/logo2.svg" alt="">
-                <div class="nav-links2">
-                 <ul>
-                    <li><a href="#home">Home</a></li> 
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#category">Category</a></li>
-                    <li><a href="#Contact-us">Contact Us</a></li>
-                 </ul>
-             </div>
-            </div>
-            <hr>
-            <div class="colu-2">
-              <h4>allrightsreserved</h4>
-              <a href=""><img src="../icons/instagram.svg" alt="" class="img1"></a> 
-              <a href=""><img src="../icons/twitter.svg" alt="" class="img2"></a>
-            </div>
-        </div>
-    </footer>
+  
+
+    <!-- Footer -->
+    <?php include('./pages/footer.php')?>
+
+
     <script>
         var menuList = document.getElementById("menuList");
         menuList.style.maxHeight = "0px";

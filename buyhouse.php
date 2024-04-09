@@ -3,21 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel='stylesheet' type='text/css' media='screen' href='../allcss/longstay.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../allcss/buyhouse.css'>
     <script src="https://kit.fontawesome.com/d09b6df77f.js" crossorigin="anonymous"></script>
-    <title>longstay</title>
+    <title>Buy house</title>
 </head>
 <body>
     <header>
-        <a href="html/madream.html">
+        <a href="pages/madream.html">
             <i class="fa-solid fa-arrow-left"></i>
         </a>
     </header>
     <main class="title">
-        <h1> Long-term stay</h1>
+        <h1> Buy a house</h1>
         <hr>
         <h4>Add filters for specific options</h4>
-        <div class="search bar">
+        <div class="searchbar">
             <form>
                 <label for="location">Location:</label>
                 <select id="location" name="location">
@@ -26,7 +26,7 @@
                 </select>
         
                 <label for="type">Type:</label>
-                <select id=" " name="duration">
+                <select id="duration" name="duration">
                     <option value="house">House</option>
                     <option value="apartment">apartment</option>
                 </select>
@@ -48,9 +48,39 @@
             <div class="listing-info">
                 <h3>Beautiful Home</h3>
                 <p>Price: 500,000</p>
-                <a href="html/p2.html">
+                <a href="pages/p3.html">
                 <button>View More</button>
                </a>
+            </div>
+        </div>
+        <div class="listing">
+            <img src="images/home2.jpg" alt="">
+            <div class="listing-info">
+                <h3>Cozy Cottage</h3>
+                <p>Price: 300,000</p>
+                 <a href="pages/p3.html">
+                <button>View More</button>
+                </a>
+            </div>
+        </div>  
+        <div class="listing">
+            <img src="../images/home2.jpg" alt="">
+            <div class="listing-info">
+                <h3>Beautiful Home</h3>
+                <p>Price: 500,000</p>
+                <a href="pages/p3.html">
+                <button>View More</button>
+                </a>  
+            </div>
+        </div>
+    </div>
+    <div class="listings">
+        <div class="listing">
+            <img src="../images/home2.jpg" alt="">
+            <div class="listing-info">
+                <h3>Beautiful Home</h3>
+                <p>Price: 500,000</p>
+                <button>View More</button>
             </div>
         </div>
         <div class="listing">
@@ -58,9 +88,7 @@
             <div class="listing-info">
                 <h3>Cozy Cottage</h3>
                 <p>Price: 300,000</p>
-                <a href="html/p2.html">
                 <button>View More</button>
-               </a>
             </div>
         </div>
         <div class="listing">
@@ -68,9 +96,7 @@
             <div class="listing-info">
                 <h3>Beautiful Home</h3>
                 <p>Price: 500,000</p>
-                <a href="html/p2.html">
                 <button>View More</button>
-               </a>
             </div>
         </div>
     </div>

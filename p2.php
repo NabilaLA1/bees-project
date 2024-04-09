@@ -12,7 +12,7 @@
     <header>
         <!-- Navigation menu -->
         <nav>
-            <a href="html/shortstay.html"><i class="fa-solid fa-arrow-left"></i></a>
+            <a href="pages/shortstay.html"><i class="fa-solid fa-arrow-left"></i></a>
         </nav>
     </header>
 
@@ -46,8 +46,8 @@
         <div class="contact-us">
             <h2>Interested?</h2>
         
-            <a class="button" href="html/inspection.html"><button>Book inspection</button></a>
-            <a class="button" href="html/reservenow2.html"><button>Reserve now</button></a>
+            <a class="button" href="pages/inspection.html"><button>Book inspection</button></a>
+            <a class="button" href="pages/reservenow2.html"><button>Reserve now</button></a>
         </div>
         
     </div>

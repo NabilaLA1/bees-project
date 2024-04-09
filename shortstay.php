@@ -3,32 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel='stylesheet' type='text/css' media='screen' href='../allcss/buyhouse.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../allcss/shortstay.css'>
     <script src="https://kit.fontawesome.com/d09b6df77f.js" crossorigin="anonymous"></script>
-    <title>Buy house</title>
+    <title>Shortstay</title>
 </head>
 <body>
     <header>
-        <a href="html/madream.html">
-            <i class="fa-solid fa-arrow-left"></i>
-        </a>
+        <a href="pages/madream.html"> <i class="fa-solid fa-arrow-left"></i></a>
     </header>
     <main class="title">
-        <h1> Buy a house</h1>
+        <h1>Short stay</h1>
         <hr>
         <h4>Add filters for specific options</h4>
-        <div class="searchbar">
+        <div class="search bar">
             <form>
                 <label for="location">Location:</label>
                 <select id="location" name="location">
                     <option value="ht">Hotoro</option>
                     <option value="trn">Tarauni</option>
+                    <option value="Lc">Lamido crescent</option>
                 </select>
         
                 <label for="type">Type:</label>
-                <select id="duration" name="duration">
+                <select id="type" name="type">
                     <option value="house">House</option>
                     <option value="apartment">apartment</option>
+                </select>
+                
+                  <label for="duration">Duration:</label>
+                <select id="duration" name="duration">
+                     <option value="">1 days</option>
+                     <option value="">2 days</option>
+                     <option value="">3 days</option>
+                     <option value="">a week</option>
+                    <option value="long"> 2 weeks</option>
                 </select>
         
                 <label for="cost-range">Cost Range:</label>
@@ -48,39 +56,9 @@
             <div class="listing-info">
                 <h3>Beautiful Home</h3>
                 <p>Price: 500,000</p>
-                <a href="html/p3.html">
+            <a href="pages/p1.html">
                 <button>View More</button>
-               </a>
-            </div>
-        </div>
-        <div class="listing">
-            <img src="images/home2.jpg" alt="">
-            <div class="listing-info">
-                <h3>Cozy Cottage</h3>
-                <p>Price: 300,000</p>
-                 <a href="html/p3.html">
-                <button>View More</button>
-                </a>
-            </div>
-        </div>  
-        <div class="listing">
-            <img src="../images/home2.jpg" alt="">
-            <div class="listing-info">
-                <h3>Beautiful Home</h3>
-                <p>Price: 500,000</p>
-                <a href="html/p3.html">
-                <button>View More</button>
-                </a>  
-            </div>
-        </div>
-    </div>
-    <div class="listings">
-        <div class="listing">
-            <img src="../images/home2.jpg" alt="">
-            <div class="listing-info">
-                <h3>Beautiful Home</h3>
-                <p>Price: 500,000</p>
-                <button>View More</button>
+            </a>
             </div>
         </div>
         <div class="listing">
@@ -88,7 +66,9 @@
             <div class="listing-info">
                 <h3>Cozy Cottage</h3>
                 <p>Price: 300,000</p>
+                <a href="pages/p1.html">
                 <button>View More</button>
+              </a>
             </div>
         </div>
         <div class="listing">
@@ -96,7 +76,9 @@
             <div class="listing-info">
                 <h3>Beautiful Home</h3>
                 <p>Price: 500,000</p>
+                <a href="pages/p1.html">
                 <button>View More</button>
+              </a>
             </div>
         </div>
     </div>

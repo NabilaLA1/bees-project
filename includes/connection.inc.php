@@ -1,6 +1,6 @@
 <?php
 $host= 'localhost';
-$dbname='myfirstdatebase';
+$dbname='beesDb';
 $dbusername='root';
 $dbpassword='';
 
