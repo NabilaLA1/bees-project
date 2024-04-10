@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 
 <header>
         <!--logo-->
@@ -15,5 +16,11 @@
             <img src="./icons/bars-solid.svg" class="menu-icon" onclick="togglemenu()">
         </div>
         <!--log in button--> 
+        <?php if (isset($_SESSION["user"])): ?>
+        <!-- Display user name if logged in -->
+        <span style="color: #FAD02C">Welcome, <?php echo $_SESSION["user"]; ?></span>
+    <?php else: ?>
+        <!-- Display login button if not logged in -->
         <a class="btn" href="login.php"><button>Log in</button></a>
+    <?php endif; ?>
     </header>

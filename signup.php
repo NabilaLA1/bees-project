@@ -1,5 +1,4 @@
 
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,6 +8,9 @@
     <title>log in</title>
 </head>
 <body>
+
+<?php include './includes/process.inc.php'; ?>
+
     <div class="sign-up">
         <div class="column-1">
             <img src="./icons/logo.svg" alt="">
@@ -16,7 +18,26 @@
         </div>
         <div class="column-2">
             <h1>Sign up</h1>
-            <form action="includes/signup.inc.php" class="signupform">
+            <form action="" class="signupform" method="post">
+
+            <!-- Succces and Error Notification -->
+            <div class="form-group"> 
+          <?php 
+              if(isset($error)) {
+                  ?>
+                  <div class="alert alert-danger">
+                      <strong><?php echo $error ?></strong>
+                  </div>
+                  <?php
+              }elseif (isset($success)) {
+                  ?>
+                <div class="alert alert-success">
+                <strong><?php echo $success ?></strong>
+               </div>
+               <?php
+              }
+          ?>
+      </div>
                 <div class="input-field">
                     <img src="./icons/user-solid.svg" alt="" class="uimg">
                      <input type="text" name="name" placeholder=" Name" class="input" required>
@@ -27,13 +48,13 @@
                 </div>
                 <div class="input-field">
                     <img src="./icons/lock-solid.svg" alt="">
-                     <input type="password" name="Pwd" placeholder="create Password" class="input" required>
+                     <input type="password" name="password" placeholder="create Password" class="input" required>
                 </div>
                 <div class="input-field">
                     <img src="./icons/lock-solid.svg" alt="">
-                     <input type="password" name="Pwd" placeholder="confirm Password" class="input" required>
+                     <input type="password" name="confirmPassword" placeholder="confirm Password" class="input" required>
                 </div>
-                <a class="button" href="#"><button>Sign up</button></a>
+                <a class="button"  href="#" ><button type="submit" name="signup">Sign up</button></a>
             </form>
             <div class="no-acct">
                 <h5>Already have an account?</h5><a class="button" href="login.php"><button>Log in</button></a>
