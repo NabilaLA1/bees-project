@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel='stylesheet' type='text/css' media='screen' href='../allcss/buynow.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./assets/css/buynow.css'>
     <title>Home Inspection Booking</title>
     <script src="https://kit.fontawesome.com/d09b6df77f.js" crossorigin="anonymous"></script>
 </head>

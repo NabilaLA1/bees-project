@@ -3,10 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel='stylesheet' type='text/css' media='screen' href='../allcss/buyhouse.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./assets/css/buyhouse.css'>
     <script src="https://kit.fontawesome.com/d09b6df77f.js" crossorigin="anonymous"></script>
     <title>Buy house</title>
-</head>
 <body>
     <header>
         <a href="index.php">
@@ -44,7 +43,7 @@
     </main>
     <div class="listings">
         <div class="listing">
-            <img src="../images/home2.jpg" alt="">
+            <img src="./images/home2.jpg" alt="">
             <div class="listing-info">
                 <h3>Beautiful Home</h3>
                 <p>Price: 500,000</p>
@@ -54,7 +53,7 @@
             </div>
         </div>
         <div class="listing">
-            <img src="images/home2.jpg" alt="">
+            <img src="./images/home2.jpg" alt="">
             <div class="listing-info">
                 <h3>Cozy Cottage</h3>
                 <p>Price: 300,000</p>
@@ -64,7 +63,7 @@
             </div>
         </div>  
         <div class="listing">
-            <img src="../images/home2.jpg" alt="">
+            <img src="./images/home2.jpg" alt="">
             <div class="listing-info">
                 <h3>Beautiful Home</h3>
                 <p>Price: 500,000</p>
@@ -76,7 +75,7 @@
     </div>
     <div class="listings">
         <div class="listing">
-            <img src="../images/home2.jpg" alt="">
+            <img src="./images/home2.jpg" alt="">
             <div class="listing-info">
                 <h3>Beautiful Home</h3>
                 <p>Price: 500,000</p>
@@ -84,7 +83,7 @@
             </div>
         </div>
         <div class="listing">
-            <img src="../images/home2.jpg" alt="">
+            <img src="./images/home2.jpg" alt="">
             <div class="listing-info">
                 <h3>Cozy Cottage</h3>
                 <p>Price: 300,000</p>
@@ -92,7 +91,7 @@
             </div>
         </div>
         <div class="listing">
-            <img src="../images/home2.jpg" alt="">
+            <img src="./images/home2.jpg" alt="">
             <div class="listing-info">
                 <h3>Beautiful Home</h3>
                 <p>Price: 500,000</p>

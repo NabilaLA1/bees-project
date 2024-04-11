@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Property Listing - Property Name</title>
-    <link rel="stylesheet" href="../allcss/p3.css">
+    <link rel="stylesheet" href="./assets/css/p3.css">
     <script src="https://kit.fontawesome.com/d09b6df77f.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -20,13 +20,13 @@
     <div class="slideshow-container">
         <!-- Slides -->
         <div class="mySlides fade">
-            <img src="../images/home2.jpg" style="width:100%">
+            <img src="./images/home2.jpg" style="width:100%">
         </div>
         <div class="mySlides fade">
-            <img src="../images/parlor1.jpg" style="width:100%">
+            <img src="./images/parlor1.jpg" style="width:100%">
         </div>
         <div class="mySlides fade">
-            <img src="../images/kitchen.avif" style="width:100%">
+            <img src="./images/kitchen.avif" style="width:100%">
         </div>
 
         <!-- Next and previous buttons -->

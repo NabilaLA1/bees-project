@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel='stylesheet' type='text/css' media='screen' href='./assets/css/longstay.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href="./assets/css/longstay.css">
     <script src="https://kit.fontawesome.com/d09b6df77f.js" crossorigin="anonymous"></script>
     <title>longstay</title>
 </head>
@@ -48,7 +48,7 @@
             <div class="listing-info">
                 <h3>Beautiful Home</h3>
                 <p>Price: 500,000</p>
-                <a href="p2.php">
+                <a href="p1.php">
                 <button>View More</button>
                </a>
             </div>
@@ -58,7 +58,7 @@
             <div class="listing-info">
                 <h3>Cozy Cottage</h3>
                 <p>Price: 300,000</p>
-                <a href="p2.php">
+                <a href="p1.php">
                 <button>View More</button>
                </a>
             </div>
@@ -68,7 +68,7 @@
             <div class="listing-info">
                 <h3>Beautiful Home</h3>
                 <p>Price: 500,000</p>
-                <a href="p2.php">
+                <a href="p1.php">
                 <button>View More</button>
                </a>
             </div>
